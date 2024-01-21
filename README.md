@@ -96,20 +96,36 @@ Authentication Service is part of Online Exam Cloud Infrastructure.
 ## Development ##
 
 ### Dependencies ###
-1. Nodejs 10+
+1. Nodejs New Version
 2. Visual Studio Code
 
 ### How to run ###
 1. Move to the 'app' folder
 ```
-cd app
+cd Online Exam Registration
 ```
-2. Install the dependencies
+2.Move to the frontend folder
+```
+cd frontend
+```
+3. Install the dependencies
 ```
 npm install
 ``` 
-3. Run the app
+4. Run the app
+```
+npm run dev
+```
+5.Move to the backend folder
+```
+cd backend
+```
+6.Install the dependencies
+```
+npm install
+```
+7.Run the app
 ```
 npm start
 ```
-4. Verify http://localhost:5001
+8. Verify http://localhost:5001
